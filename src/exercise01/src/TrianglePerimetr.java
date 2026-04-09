@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.util.Locale;
 
+/**
+ * Mathematical module that calculates the perimeter of a triangle
+ * using the coordinates of its three vertices.
+ */
 public class TrianglePerimetr {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

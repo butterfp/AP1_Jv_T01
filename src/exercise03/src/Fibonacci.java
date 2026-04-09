@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * math module that finds
+ * the n-th Fibonacci number.
+ */
 public class Fibonacci {
 
     public static void main(String[] args) {

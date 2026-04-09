@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.util.Locale;
 
+/**
+ * math module that performs
+ * an ascending sort on an array
+ */
 public class ArraySelectionSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);

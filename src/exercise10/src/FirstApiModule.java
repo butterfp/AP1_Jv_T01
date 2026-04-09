@@ -3,6 +3,9 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+/**
+ *  Module that finds the names of adult users
+ */
 public class FirstApiModule {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

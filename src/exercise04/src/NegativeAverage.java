@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
-public class Average {
+/**
+ * math module that calculates
+ * the arithmetic mean of negative numbers
+ */
+public class NegativeAverage {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

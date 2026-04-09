@@ -4,6 +4,11 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Locale;
 
+/**
+ * math module
+ * that finds the maximum and minimum values
+ * in an array
+ */
 public class MinMax {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

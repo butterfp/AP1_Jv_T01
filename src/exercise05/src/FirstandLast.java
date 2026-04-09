@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ *  math module
+ *  that finds numbers
+ *  where the first and last digits are the same.
+ */
 public class FirstandLast {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -2,6 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * module that filters a list of strings
+ * based on a substring
+ */
 public class StringFilterModule {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

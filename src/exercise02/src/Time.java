@@ -1,19 +1,25 @@
 import java.util.Scanner;
 
+/**
+ * Math module that converts seconds to the format hh:mm:ss.
+ * Calculates the number of hours, minutes, and seconds from a total amount of seconds.
+ */
 public class Time {
 
     public static void main(String[] args) {
-        int totalSeconds = inputSeconds();
+        Scanner scanner = new Scanner(System.in);
+
+        int totalSeconds = inputSeconds(scanner);
 
         if (totalSeconds < 0) {
             System.out.println("Incorrect time");
         } else {
             calculateAndPrintTime(totalSeconds);
         }
+        scanner.close();
     }
 
-    public static int inputSeconds() {
-        Scanner scanner = new Scanner(System.in);
+    public static int inputSeconds(Scanner scanner) {
         while (true) {
             if (scanner.hasNextInt()) {
                 return scanner.nextInt();
@@ -29,6 +35,7 @@ public class Time {
         int remainingSecondsAfterHours = totalSeconds % 3600;
         int minutes = remainingSecondsAfterHours / 60;
         int seconds = remainingSecondsAfterHours % 60;
+
         printFormattedTime(hours, minutes, seconds);
     }
 

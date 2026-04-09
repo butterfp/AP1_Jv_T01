@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * math module
+ * that determines whether a sequence
+ * is in ascending order
+ */
 public class AscendingSequence {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
